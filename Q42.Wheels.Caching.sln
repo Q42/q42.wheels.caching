@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q42.Wheels.Caching", "Q42.Wheels.Caching\Q42.Wheels.Caching.csproj", "{0C363796-465A-41AF-9F3B-7A2075CC08CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Q42.Wheels.Caching.Memcached", "Q42.Wheels.Caching.Memcached\Q42.Wheels.Caching.Memcached.csproj", "{B354CBAA-0A72-4108-8C2E-EBDA22CF0D1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{367B6DD2-A1D5-4509-95B5-5B6E40C29AAD}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C363796-465A-41AF-9F3B-7A2075CC08CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C363796-465A-41AF-9F3B-7A2075CC08CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C363796-465A-41AF-9F3B-7A2075CC08CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C363796-465A-41AF-9F3B-7A2075CC08CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B354CBAA-0A72-4108-8C2E-EBDA22CF0D1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B354CBAA-0A72-4108-8C2E-EBDA22CF0D1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B354CBAA-0A72-4108-8C2E-EBDA22CF0D1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B354CBAA-0A72-4108-8C2E-EBDA22CF0D1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

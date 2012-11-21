@@ -1,0 +1,13 @@
+#standard visual studio stuff
+*.suo
+obj
+bin
+Bin
+*.user
+
+#do not track packages because we use package restore. only add repositories.config file
+packages/*
+!packages/repositories.config
+
+#no visual version of packages
+*.dgml

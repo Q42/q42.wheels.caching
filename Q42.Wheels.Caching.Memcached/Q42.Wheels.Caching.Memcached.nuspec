@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <authors>Mark van Straten, Tom Lokhorst</authors>
+    <owners>$author$</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Initial extraction to wheel and packaging as NuGet package</releaseNotes>
+    <copyright>Copyright 2012</copyright>
+    <tags>Q42 Q42.Wheels Caching Enyim Memcached</tags>    
+    
+	<dependencies>
+
+	  <dependency id="Q42.Wheels.Caching" version="1.0" />
+	  <dependency id="EnyimMemcached" version="2.11" />
+	  <dependency id="EnyimMemcached-log4net" version="2.11"/>
+	  <dependency id="log4net" version="1.2.10"/>	  
+
+    </dependencies>
+	<frameworkAssemblies>
+	  <frameworkAssembly assemblyName="System" targetFramework="net40" />
+	  <frameworkAssembly assemblyName="System.Core"  targetFramework="net40"  />
+	</frameworkAssemblies>			
+  </metadata>
+	<files>
+	<!-- strange, when i set target to lib\net40 (which it should be) i get an error from nuget-->
+	  <file src="bin\Debug\Q42.Wheels.Caching.Memcached.*" target="lib" /> 
+	</files>    
+</package>
